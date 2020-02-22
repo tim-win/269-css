@@ -5,6 +5,13 @@ div.threadbar.top {
     border-color: gray;
 
 }
+div.threadbar.bottom {
+    box-shadow: none;
+    background: transparent;
+    border-width: 4px 0 3px 0;
+    border-color: gray;
+
+}
 .forum_269 .postbody a.quote_link:before {
     font-size: 9px;
 }
@@ -16,23 +23,39 @@ div.threadbar.top {
 
 }
 
-#thread table.post {
-    border: none;
+#thread td.userinfo .registered {
+    font-family: Georgia !important;
+
+    
+}
+#thread td.userinfo .registered::before {
+    content: "Contributor Since ";
+
 }
 
-.altcolor1 .bbc-block {
-    box-shadow: none;
-    border-radius: 0;
+#thread td.postbody {
+        font-family: Georgia !important;
+        color: #444 !important;
 }
-.altcolor2 .bbc-block {
-    box-shadow: none;
+
+td.postlinks ul.profilelinks li a {
     border-radius: 0;
+    text-transform: uppercase;
+    color: #666;
+}
+
+#thread table.post {
+    border-width: 1px 0 0 0;
 }
 #nav_purchase {
     background: transparent;
     color: #666;
 }
-
+.showthread div.breadcrumbs a {
+    color: #555;
+    text-transform: uppercase;
+    
+}
 #nav_purchase {
     background: transparent;
     color: #666;
@@ -53,10 +76,32 @@ div.threadbar.top {
     border: none;
     text-transform: uppercase;
 }
+.showthread .navigation {
+    color: #666;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+.showthread .navigation a {
+    color: #666;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: underline;
+    border-radius: 0;
+}
+.showthread .breadcrumbs span.mainbodytextlarge a.index, div.pages a, div.pages span.disabled, div.pages a:hover, .altcolor2 .bbc-block, .altcolor1 .bbc-block {
+    border-radius: 0;
+    box-shadow: none;
+}
 
 #searchboxes {
     padding: 0;
 }
+
 
 #forum td.replies a, #forum td.author a, #forums td.moderators a, #navigation a {
     color: #666;
