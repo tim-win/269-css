@@ -1,62 +1,59 @@
-div.threadbar.top {
+.forum_269 div.threadbar.top {
     box-shadow: none;
     background: transparent;
     border-width: 4px 0 3px 0;
     border-color: gray;
 
 }
-div.threadbar.bottom {
+.forum_269 div.threadbar.bottom {
     box-shadow: none;
     background: transparent;
     border-width: 4px 0 3px 0;
     border-color: gray;
 
 }
-.forum_269 .postbody a.quote_link:before {
-    font-size: 9px;
-}
 
 
-#container {
+.forum_269 #container {
     padding: 0;
     background-color: #e8e8e8;
 
 }
 
-#thread td.userinfo .registered {
+.forum_269 #thread td.userinfo .registered {
     font-family: Georgia !important;
 
     
 }
-#thread td.userinfo .registered::before {
+.forum_269 #thread td.userinfo .registered::before {
     content: "Contributor Since ";
 
 }
 
-#thread td.postbody {
+.forum_269 #thread td.postbody {
         font-family: Georgia !important;
         color: #444 !important;
 }
 
-td.postlinks ul.profilelinks li a {
+.forum_269 td.postlinks ul.profilelinks li a {
     border-radius: 0;
     text-transform: uppercase;
     color: #666;
 }
 
-#thread table.post {
+.forum_269 #thread table.post {
     border-width: 1px 0 0 0;
 }
-#nav_purchase {
+.forum_269 #nav_purchase {
     background: transparent;
     color: #666;
 }
-.showthread div.breadcrumbs a {
+.forum_269 .showthread div.breadcrumbs a {
     color: #555;
     text-transform: uppercase;
     
 }
-#nav_purchase {
+.forum_269 #nav_purchase {
     background: transparent;
     color: #666;
     text-shadow: none;
@@ -64,19 +61,19 @@ td.postlinks ul.profilelinks li a {
     border: none;
     box-shadow: none;
 }
-#nav_purchase li a {
+.forum_269 #nav_purchase li a {
     color: #666;
     text-shadow: none;
     text-transform: uppercase;
     text-decoration: underline;
 }
-#navigation {
+.forum_269 #navigation {
     background: transparent;
     box-shadow: none;
     border: none;
     text-transform: uppercase;
 }
-.showthread .navigation {
+.forum_269 .showthread .navigation {
     color: #666;
     background: transparent;
     box-shadow: none;
@@ -84,7 +81,7 @@ td.postlinks ul.profilelinks li a {
     text-transform: uppercase;
     border-radius: 0;
 }
-.showthread .navigation a {
+.forum_269 .showthread .navigation a {
     color: #666;
     background: transparent;
     box-shadow: none;
@@ -93,17 +90,32 @@ td.postlinks ul.profilelinks li a {
     text-decoration: underline;
     border-radius: 0;
 }
-.showthread .breadcrumbs span.mainbodytextlarge a.index, div.pages a, div.pages span.disabled, div.pages a:hover, .altcolor2 .bbc-block, .altcolor1 .bbc-block {
+.forum_269 .showthread .breadcrumbs span.mainbodytextlarge a.index, div.pages a, div.pages span.disabled, div.pages a:hover, .altcolor2 .bbc-block, .altcolor1 .bbc-block {
     border-radius: 0;
     box-shadow: none;
 }
 
-#searchboxes {
+.forum_269 #searchboxes {
     padding: 0;
 }
 
 
-#forum td.replies a, #forum td.author a, #forums td.moderators a, #navigation a {
+.forum_269 #forum td.replies a, #forum td.author a, #forums td.moderators a, #navigation a {
     color: #666;
     text-decoration: underline;
+}
+
+.forum_269 .postbody a.quote_link:before {
+  content:"Sources close to ";
+  color: black
+}
+
+.forum_269 .postbody a.quote_link:after {
+  content:", speaking on the condition of anonymity stated:";
+  position: relative;
+  right: 3.5em;
+  color:black;
+  background-color: #FAFAFA;
+  width: 10px;
+  height: 1em;
 }
